@@ -1,1 +1,33 @@
 @import 'bootstrap/bootstrap.scss';
+body {
+  font-family: Century Gothic;
+  color: #46576F;
+  text-shadow: 0px 0px 1px grey;
+}
+div {
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+table {
+  width: 98%;
+  margin-left: 10px;
+  border-collapse: collapse;
+}
+
+
+img {
+  height: 30px;
+  border-radius: 50%;
+}
+td {
+  padding: 10px;
+}
+.first_column {
+  text-align: center;
+  width: 50px
+}
+
+table tr:nth-child(even){
+  background-color: rgb(233, 233, 233);
+}
